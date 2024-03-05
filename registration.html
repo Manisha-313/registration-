@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Notepad Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .notepad {
+            width: 90%;
+            height:100%;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-bar {
+            background-color: #f0f0f0;
+width: 90%;
+            padding: 5px;
+            border-bottom: 1px solid #999999;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-bar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-bar ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .menu-bar ul li a {
+            color: #333333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-bar ul li a:hover {
+            background-color: #cccccc;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .textarea {
+            width: 90%;
+            height: 400px;
+            padding: 10px;
+            border: 1px solid #999999;
+            background-color: #ffffff;
+            resize: none;
+        }
+.header{
+height:20px;
+width:90%;
+background-color: #008000;
+ }
+.notepadicon{
+height:20px;
+width:20px;
+}
+</style>
+</head>
+<body>
+    <div class="notepad">
+        <div class="header">
+            <image class="notepadicon" src="https://www.freeiconspng.com/thumbs/notepad-icon/notepad-icon-7.png"/>
+<p>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><u>F</u>ile</a></li>
+                <li><a href="#"><u>E</u>dit</a></li>
+                <li><a href="#"><u>F</u>ormat</a></li>
+                <li><a href="#"><u>V</u>iew</a></li>
+                <li><a href="#"><u>H</u>elp</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <textarea class="textarea"></textarea>
+        </div>
+     
+    </div>
+</body>
+</html>
